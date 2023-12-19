@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-spacer {
+	display: none;
+}
+
+.wp-block-create-block-hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wp-hero-section-text-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.wp-hero-section-profile-image {
+	max-width: 500px;
+	max-height: 500px;
+	object-fit: cover;
+
+	img {
+		width: 500px;
+		height: 500px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+}
